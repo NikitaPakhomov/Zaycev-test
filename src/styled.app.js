@@ -3,6 +3,8 @@ import Subscriptions from './pages/Subscriptions';
 import SideBarMenu from './components/SideBarMenu';
 import Banner from './components/Banner';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import VK from './components/VK';
 
 export const StyledContainer = styled.div`
   width: 1280px;
@@ -34,4 +36,14 @@ export const StyledHeader = styled(Header)`
   height: 66px;
   width: 100%;
   background-color: #2b849d;
+`;
+
+export const StyledFooter = styled(Footer)`
+  width: 100%;
+  background: #00556e;
+`;
+
+export const StyledVK = styled(VK)`
+  width: 266px;
+  height: 248px;
 `;

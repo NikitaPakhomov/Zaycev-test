@@ -14,6 +14,10 @@ import {
   StyledAuth,
   StyledSubscriber,
   StyledSubscriberLogo,
+  StyledSubscriberTextContainer,
+  StyledSubscriberTextTop,
+  StyledSubscriberTextBot,
+  StyledAuthLink,
 } from './styled.index';
 import logo from '../../assets/logo.svg';
 
@@ -36,18 +40,29 @@ const Header = (props) => {
                 type="text"
               />
             </StyledSearchField>
-            <StyledSearchBtn>Найти</StyledSearchBtn>
+            <StyledSearchBtn disabled="disabled">Найти</StyledSearchBtn>
           </StyledSearchForm>
         </StyledSearchCont>
         <StyledProfile>
           <StyledSubscriber>
             <StyledSubscriberLogo />
+            <StyledSubscriberTextContainer>
+              <StyledSubscriberTextTop>Подписка</StyledSubscriberTextTop>
+              <StyledSubscriberTextBot>купить доступ</StyledSubscriberTextBot>
+            </StyledSubscriberTextContainer>
           </StyledSubscriber>
-          <StyledAuth />
+          <StyledAuth>
+            <StyledAuthLink href="#">Регистрация</StyledAuthLink>
+            <StyledAuthLink href="#">Вход</StyledAuthLink>
+          </StyledAuth>
         </StyledProfile>
       </StyledHeaderCont>
     </StyledHeader>
   );
+};
+
+Header.propTypes = {
+  className: PropTypes.string,
 };
 
 export default Header;

@@ -20,7 +20,7 @@ export const StyledHeaderCont = styled.div`
 export const StyledLogoCont = styled.div`
   height: 4.125em;
   display: flex;
-  flex-basis: 1 24%;
+  flex: 1 24%;
   justify-content: flex-start;
 `;
 
@@ -60,6 +60,12 @@ export const StyledSearch = styled.input`
   border-bottom-left-radius: 2px;
   transition: background-color 0.2s, color 0.2s;
   box-sizing: border-box;
+  &::placeholder {
+    color: #2b849d;
+  }
+  &:focus {
+    background: #fff;
+  }
 `;
 
 export const StyledSearchBtn = styled.button`
@@ -74,6 +80,10 @@ export const StyledSearchBtn = styled.button`
   background: #2b849d;
   transition: background-color 0.2s;
   margin-left: -2px;
+  &:hover {
+    outline: 0;
+    background: #45a1bb;
+  }
 `;
 
 export const StyledProfile = styled.div`
@@ -84,15 +94,45 @@ export const StyledProfile = styled.div`
   padding: 0 1.25em 0 0;
   box-sizing: border-box;
   position: relative;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   justify-content: end;
 `;
 
-export const StyledAuth = styled.div``;
-
-export const StyledSubscriber = styled.div``;
-export const StyledSubscriberText = styled.div``;
+export const StyledSubscriber = styled.div`
+  display: flex;
+  margin-left: 18px;
+`;
+export const StyledSubscriberTextContainer = styled.div`
+  text-align: center;
+  color: white;
+  margin-left: 10px;
+`;
+export const StyledSubscriberTextTop = styled.div`
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 18px;
+`;
+export const StyledSubscriberTextBot = styled.div`
+  font-family: Arial;
+  font-size: 11px;
+  line-height: 13px;
+`;
 export const StyledSubscriberLogo = styled(Logo)`
   color: black;
+`;
+
+export const StyledAuth = styled.div`
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  flex: 1 27%;
+  box-sizing: border-box;
+`;
+
+export const StyledAuthLink = styled.a`
+  color: #fff;
+  &:first-child {
+    margin-right: 1.1875em;
+  }
 `;

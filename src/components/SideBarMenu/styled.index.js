@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 export const MenuItem = styled.li`
   width: 100%;
@@ -8,10 +8,15 @@ export const MenuItem = styled.li`
   &:hover {
     color: #00a8d9;
   }
+
+  &:nth-child(1) {
+    color: #e46457;
+  }
 `;
 
 export const MenuUl = styled.div`
   display: flex;
   flex-direction: column;
   list-style: none;
+  padding: 17px 18px;
 `;

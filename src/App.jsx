@@ -8,6 +8,8 @@ import {
   StyledSubscriptions,
   StyledSideBarMenu,
   StyledBanner,
+  StyledFooter,
+  StyledVK,
 } from './styled.app';
 
 const App = () => {
@@ -19,10 +21,12 @@ const App = () => {
           <StyledLeftBar>
             <StyledSideBarMenu />
             <StyledBanner bannerHeight="250px" />
-            <StyledBanner bannerHeight="250px" />
+            <StyledVK />
+            <StyledBanner bannerHeight="600px" />
           </StyledLeftBar>
           <StyledSubscriptions />
         </StyledContent>
+        <StyledFooter />
       </StyledContainer>
     </Provider>
   );
