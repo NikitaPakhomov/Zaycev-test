@@ -32,5 +32,6 @@ export const StyledBanner = styled(Banner)`
 
 export const StyledHeader = styled(Header)`
   height: 66px;
+  width: 100%;
   background-color: #2b849d;
 `;
