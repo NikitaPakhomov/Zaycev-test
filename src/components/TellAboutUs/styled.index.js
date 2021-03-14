@@ -16,6 +16,10 @@ export const StyledTellAboutUs = styled.div`
 
 export const StyledTitle = styled.div`
   margin-left: 0.5em;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
 `;
 
 export const StyledSocialWidget = styled.div`

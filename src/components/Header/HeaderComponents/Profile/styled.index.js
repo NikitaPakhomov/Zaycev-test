@@ -16,7 +16,7 @@ export const StyledProfile = styled.div`
 
 export const StyledSubscriber = styled.div`
   display: flex;
-  margin-left: 18px;
+  margin-left: 38px;
   cursor: pointer;
 `;
 export const StyledSubscriberTextContainer = styled.div`
@@ -35,7 +35,7 @@ export const StyledSubscriberTextBot = styled.div`
   line-height: 13px;
 `;
 export const StyledSubscriberLogo = styled(Star)`
-  color: black;
+  margin-top: 3px;
 `;
 
 export const StyledAuth = styled.div`
