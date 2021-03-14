@@ -10,6 +10,7 @@ import {
   StyledBanner,
   StyledFooter,
   StyledVK,
+  StyledTellAboutUs,
 } from './styled.app';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <StyledLeftBar>
             <StyledSideBarMenu />
             <StyledBanner bannerHeight="250px" />
+            <StyledTellAboutUs />
             <StyledVK />
             <StyledBanner bannerHeight="600px" />
           </StyledLeftBar>

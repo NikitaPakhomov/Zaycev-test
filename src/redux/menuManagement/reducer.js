@@ -15,9 +15,10 @@ const defaultState = {
     'Мобильное приложение',
     'Наши вакансии',
   ],
+  SelectedItem: '1',
 };
 
-const getMenuItems = (state, action) => {
+const getMenuItems = (state = defaultState, action) => {
   return {
     ...state,
   };

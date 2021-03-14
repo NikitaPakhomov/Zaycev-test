@@ -5,13 +5,18 @@ export const MenuItem = styled.li`
   padding: 6px 0 6px 1px;
   font-size: 16px;
   font-family: arial, sans-serif;
+  cursor: pointer;
   &:hover {
     color: #00a8d9;
   }
 
-  &:nth-child(1) {
-    color: #e46457;
-  }
+  ${(props) => {
+    return css`
+      &:nth-child(${props.selected}) {
+        color: #e46457;
+      }
+    `;
+  }}
 `;
 
 export const MenuUl = styled.div`

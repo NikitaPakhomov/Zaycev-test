@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import VK from './components/VK';
+import TellAboutUs from './components/TellAboutUs';
 
 export const StyledContainer = styled.div`
   width: 1280px;
@@ -13,7 +14,6 @@ export const StyledContainer = styled.div`
 
 export const StyledLeftBar = styled.div`
   flex: 0 0 304px;
-  height: 1600px;
   background-color: #fff;
 `;
 
@@ -46,4 +46,9 @@ export const StyledFooter = styled(Footer)`
 export const StyledVK = styled(VK)`
   width: 266px;
   height: 248px;
+`;
+
+export const StyledTellAboutUs = styled(TellAboutUs)`
+  width: 300px;
+  height: 180px;
 `;

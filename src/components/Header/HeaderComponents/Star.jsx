@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Logo = () => {
+const Star = () => {
   return (
     <svg width="25" height="24" viewBox="0 0 25 24">
       <path
@@ -23,4 +23,4 @@ const Logo = () => {
   );
 };
 
-export default Logo;
+export default Star;
