@@ -8,6 +8,7 @@ import VK from './components/VK';
 import TellAboutUs from './components/TellAboutUs';
 
 export const StyledContainer = styled.div`
+  background-color: white;
   width: 1280px;
   margin: 0 auto;
 `;
@@ -41,6 +42,7 @@ export const StyledHeader = styled(Header)`
 export const StyledFooter = styled(Footer)`
   width: 100%;
   background: #00556e;
+  line-height: 16px;
 `;
 
 export const StyledVK = styled(VK)`

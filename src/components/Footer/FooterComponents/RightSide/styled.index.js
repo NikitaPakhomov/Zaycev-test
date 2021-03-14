@@ -4,6 +4,7 @@ import btns from '../../../../assets/store_buttons.png';
 export const StyledRight = styled.div`
   width: 50%;
   height: 100%;
+  margin-left: 70px;
 `;
 
 export const StyledAppLinksCont = styled.div`
@@ -14,7 +15,7 @@ export const StyledAppLink = styled.a`
   background: url(${btns}) no-repeat;
   height: 45px;
   margin-left: 0;
-  margin-right: 8px;
+  margin-right: 12px;
   width: 146px;
   &:hover {
     background-position: 0 -45px;
@@ -38,7 +39,7 @@ export const StyledAppLink = styled.a`
 export const StyledLinksCont = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 32px;
+  margin-top: 29px;
 `;
 
 export const StyledLinkContainer = styled.div`
@@ -53,5 +54,5 @@ export const StyledLink = styled.a`
 `;
 
 export const StyledAbuseLinkContainer = styled(StyledLinkContainer)`
-  margin-top: 60px;
+  margin-top: 73px;
 `;
