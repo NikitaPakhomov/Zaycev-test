@@ -27,8 +27,8 @@ const RightSide = () => {
         <StyledAppLink href="https://appgallery.huawei.com/#/app/C101567849?appId=C101567849&source=appshare&subsource=C101567849" />
       </StyledAppLinksCont>
       <StyledLinksCont>
-        {links.map((link) => (
-          <StyledLinkContainer>
+        {links.map((link, index) => (
+          <StyledLinkContainer key={index}>
             <StyledLink>{link}</StyledLink>
           </StyledLinkContainer>
         ))}
