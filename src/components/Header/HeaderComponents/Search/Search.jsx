@@ -17,9 +17,12 @@ const Search = () => {
             autocomplete="off"
             name="query_search"
             type="text"
+            method="get"
           />
         </StyledSearchField>
-        <StyledSearchBtn disabled="disabled">Найти</StyledSearchBtn>
+        <StyledSearchBtn disabled="disabled" type="submit">
+          Найти
+        </StyledSearchBtn>
       </StyledSearchForm>
     </StyledSearchCont>
   );
