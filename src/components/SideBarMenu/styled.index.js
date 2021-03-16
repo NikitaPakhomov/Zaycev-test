@@ -2,7 +2,6 @@ import styled, {css} from 'styled-components';
 
 export const MenuItem = styled.li`
   width: 100%;
-  padding: 6px 0 6px 1px;
   font-size: 16px;
   font-family: arial, sans-serif;
   cursor: pointer;
@@ -29,4 +28,6 @@ export const MenuUl = styled.ul`
 
 export const Link = styled.a`
   display: block;
+  height: 100%;
+  padding: 6px 0 6px 1px;
 `;
