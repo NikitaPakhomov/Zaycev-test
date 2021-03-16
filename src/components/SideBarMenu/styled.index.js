@@ -19,11 +19,12 @@ export const MenuItem = styled.li`
   }}
 `;
 
-export const MenuUl = styled.div`
+export const MenuUl = styled.ul`
   display: flex;
   flex-direction: column;
   list-style: none;
   padding: 17px 18px;
+  margin: 0 0 -10px;
 `;
 
 export const Link = styled.a`
