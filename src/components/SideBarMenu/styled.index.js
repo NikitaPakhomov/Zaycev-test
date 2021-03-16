@@ -25,3 +25,7 @@ export const MenuUl = styled.div`
   list-style: none;
   padding: 17px 18px;
 `;
+
+export const Link = styled.a`
+  display: block;
+`;

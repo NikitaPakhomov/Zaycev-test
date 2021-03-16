@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import {MenuUl, MenuItem} from './styled.index';
+import {MenuUl, MenuItem, Link} from './styled.index';
 import {useSelector} from 'react-redux';
 
 const SideBarMenu = () => {
@@ -12,7 +12,7 @@ const SideBarMenu = () => {
       {MenuItems &&
         MenuItems.map((menuItem, index) => (
           <MenuItem selected={selected} key={index}>
-            <a href="#">{menuItem}</a>
+            <Link href="#">{menuItem}</Link>
           </MenuItem>
         ))}
     </MenuUl>

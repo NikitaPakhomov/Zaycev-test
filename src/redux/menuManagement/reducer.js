@@ -3,10 +3,10 @@ import {GET_MENU_ITEMS} from './types';
 
 const defaultState = {
   menu: [
-    'Бонусы',
-    'Подкаст',
-    'Поиск',
+    'Подкасты',
     'Новости',
+    'Поиск',
+    'Новинки',
     'Исполнители',
     'Жанры',
     'Сборники',
@@ -14,8 +14,9 @@ const defaultState = {
     'Добавить трек',
     'Мобильное приложение',
     'Наши вакансии',
+    'В мобильную версию',
   ],
-  SelectedItem: '1',
+  SelectedItem: '2',
 };
 
 const getMenuItems = (state = defaultState, action) => {
